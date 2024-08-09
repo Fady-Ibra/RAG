@@ -2,11 +2,11 @@
 - We'll create a QA system that understands both text and images
 - We'll build this system using Vertex AI
 
-* **Focus on Fundamentals**: We will start with the essential design pattern of "Retrieval Augmented Generation" (RAG) – a way to find and use relevant info to answer questions.
-* **Work with Text and Images**: We will expand RAG to handle both text and images found in PDF documents.
+* **Focus on Fundamentals**: We will start with the essential design pattern of Retrieval Augmented Generation (RAG)—a way to find and use relevant information to answer questions.
+* **Work with Text and Images**: We will expand RAG to handle both text and images found in PDF docs.
 * **Use Vertex AI**: We will use Vertex AI Embeddings API and Vertex AI Gemini API.
 
-By the end of this guide, we will have a solid foundation in building multimodal QA systems.
+By the end, we will have a solid foundation in building multimodal QA systems.
 
 ## Gemini
 - Gemini is a family of GenAI models that is designed for multimodal use cases. 
@@ -18,8 +18,8 @@ By the end of this guide, we will have a solid foundation in building multimodal
 
 ## Comparing text-based and mRAG
 Multimodal RAG (mRAG) offers several advantages over text-based RAG:
-1. **Enhanced knowledge access:** mRAG can access and process both textual and visual info, providing a richer and more comprehensive knowledge base for the LLM.
-2. **Improved reasoning capabilities:** By incorporating visual cues, mRAG can make better informed inferences across different types of data modalities.
+1. **Enhanced knowledge access:** mRAG can access and process both textual and visual info, providing a more comprehensive knowledge base for the LLM.
+2. **Improved reasoning capabilities:** By incorporating visual cues, mRAG can make better-informed inferences across different types of data modalities.
 
 ## How to implement RAG 
 We will implement RAG using:
@@ -30,7 +30,7 @@ We will implement RAG using:
 
 ## Objectives
 This notebook provides a guide to building a doc search engine using mRAG, step by step:
-1. Extract and store metadata of docs containing both text and images, and generate embeddings the docs
+1. Extract and store metadata of docs containing both text and images and generate embeddings of the docs
 2. Search the metadata with text queries to find similar text or images
 3. Search the metadata with image queries to find similar images
 4. Using a text query as input, search for contextual answers using both text and images
